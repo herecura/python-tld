@@ -1,7 +1,7 @@
 # Maintainer: Anton Grensjö <anton@grensjo.se>
 pkgname=python-tld
 _realname=tld
-pkgver=0.9.6
+pkgver=0.9.7
 pkgrel=1
 pkgdesc="Extracts the top level domain (TLD) from the URL given"
 arch=('any')
@@ -11,7 +11,7 @@ depends=('python' 'python-six')
 makedepends=('python-setuptools')
 options=(!emptydirs)
 source=("https://github.com/barseghyanartur/tld/archive/${pkgver}.tar.gz")
-sha256sums=('0daea01164b81c2ce0fbd880548b8fe665d3ab92ac877567c1cfca99bbe05dbd')
+sha256sums=('d29a900291ae350302248f5d8d00704a5973350c7521cc278dd592d5e762d363')
 
 package() {
   cd "$srcdir/$_realname-$pkgver"
